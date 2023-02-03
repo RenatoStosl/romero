@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/style.css">
+  <title>Romero Fernandes</title>
+  <meta name="description" content="Personal Trainer">
+  <link rel="icon" href="./favicon.ico" type="image/ico+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__container">
+      <img id="logo" src="/img/Logo-Romero.svg" alt="Logomarca">
+      <nav id="nav" class="header__menu">
+        <button id="btn-mobile">
+          <span id="hamburguer"></span>
+        </button>
+        <ul id="menu">
+          <li><a href="#formacao">Formação</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#depoimentos">Depoimentos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="introducao">
+    <div class="introducao__container">
+      <div class="introducao__conteudo">
+        <h1>Olá, sou Romero Fernandes</h1>
+        <p>Personal Trainer Especialista em Grupos Especiais e em Recuperação e Prevenção de Lesões.</p>
+        <a class="introducao__conteudo-botao" href="#">COMECE A TREINAR</a>
+        <h2>"Promovendo Saúde Através do Exercício Físico."</h2>
+      </div>
+      <div class="introducao__img">
+        <img src="/img/Foto-perfil.png" alt="Foto de Perfil">
+      </div>
+    </div>
+  </main>
+
+  <section class="formacao" id="formacao" aria-label="Formação">
+    <div class="formacao__container">
+      <h2 class="formacao__subtitulo">FORMAÇÃO</h2>
+
+      <div class="lista">
+        <ul class="formacao__lista">
+          <li class="formacao__lista-instituicao">
+            <img src="/img/graduacao.svg" alt="">
+            <p class="instituicao-nivel">Graduação</p>
+            <h3>Educação Física</h3>
+            <p class="instituicao">FPB</p>
+          </li>
+          <li class="formacao__lista-instituicao">
+            <img src="/img/especializacao-1.svg" alt="">
+            <p class="instituicao-nivel">Especialização</p>
+            <h3>Atividade Física para Grupos Especiais</h3>
+            <p class="instituicao">UNINASSAU</p>
+          </li>
+          <li class="formacao__lista-instituicao">
+            <img src="/img/especializacao-2.svg" alt="">
+            <p class="instituicao-nivel">Especialização</p>
+            <h3>Recuperação e Prevenção de Lesões</h3>
+            <p class="instituicao">UNIP</p>
+          </li>
+          <li class="formacao__lista-instituicao">
+            <img src="/img/curso.svg" alt="">
+            <p class="instituicao-nivel">Curso</p>
+            <h3>Exercício e Dor</h3>
+            <p class="instituicao">INTENSE</p>
+          </li>
+        </ul>
+      </div>
+      <div class="formacao__img">
+        <img src="/img/Experiencia.svg" alt="">
+      </div>
+    </div>
+  </section>
+
+  <section class="servicos" id="servicos" aria-label="Serviços">
+    <div class="servicos__container">
+      <div class="servicos__conteudo">
+        <div class="servicos__lista">
+          <ul>
+            <h3>CONSULTORIA ONLINE</h3>
+            <li>-Avaliação;</li>
+            <li>-Treinos;</li>
+            <li>-Exercícios;</li>
+            <li>-Agenda.</li>
+          </ul>
+        </div>
+        <div class="servicos__lista">
+          <ul>
+            <h3>ATENDIMENTO PRESENCIAL</h3>
+            <li>-Hipertrofia;</li>
+            <li>-Emagrecimento;</li>
+            <li>-Metodologia.</li>
+          </ul>
+        </div>
+        <div class="servicos__lista">
+          <ul>
+            <h3>GRUPOS ESPECIAIS</h3>
+            <li>-Gestantes;</li>
+            <li>-Crianças;</li>
+            <li>-Idosos.</li>
+          </ul>
+        </div>
+        <div class="servicos__lista">
+          <ul>
+            <h3>REABILITAÇÃO</h3>
+            <li>-Tratamento de Lesões;</li>
+            <li>-Acompanhamento e Evolução;</li>
+            <li>-Recuperação.</li>
+          </ul>
+        </div>
+      </div>
+      <h2 class="servicos__subtitulo">SERVIÇOS</h2>
+    </div>
+  </section>
+
+  <section class="depoimentos" id="depoimentos" aria-label="Depoimentos">
+    <div class="depoimentos__container">
+      <h2 class="depoimentos__subtitulo">DEPOIMENTOS</h2>
+      <div class="carrossel">
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <img src="img/depoimento-1.png" alt="Livro sobre apache kafka e spring boot da alurabooks">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/depoimento-1.png" alt="Livro sobre liderança em design da alura books">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/depoimento-1.png" alt="Livro sobre javascript assertivo da aluranooks">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/depoimento-1.png" alt="Livro sobre javascript assertivo da aluranooks">
+            </div>
+          </div>
+
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="rodape" id="rodape" aria-label="Rodapé">
+    <div class="rodape__container">
+      <div class="rodape__introducao">
+        <img src="/img/Logo-Romero-ver.svg" alt="">
+      </div>
+      <div class="rodape__contato">
+        <h2 class="rodape__titulo">CONTATO</h2>
+        <p>+55 83 99867-7922</p>
+        <p>romerofernandesjp@gmail.com</p>
+        <p>João Pessoa - PB</p>
+      </div>
+      <div class="rodape__redes">
+        <h2 class="rodape__titulo redes">SIGA-ME</h2>
+        <div class="rodape__redes-icones">
+          <a href="#"><img class="icone" src="/img/whatsapp.svg" alt="Logo do Whatsapp"></a>
+          <a href="#"><img class="icone" src="/img/instagram.svg" alt="Logo do Instagram"></a>
+          <a href="#"><img class="icone" src="/img/youtube.svg" alt="Logo do Youtube"></a>
+        </div>
+      </div>
+      <p class="rodape__copy">Romero Fernandes © Direitos reservados.</p>
+    </div>
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper', {
+      spaceBetween: 15,
+      slidesPerView: 2,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+      },
+      keyboard: true,
+    });
+
+    const btnMobile = document.getElementById("btn-mobile");
+
+    function toggleMenu(event) {
+      if (event.type == "toutchstart") event.preventDefault();
+      const nav = document.getElementById("nav");
+      nav.classList.toggle("active");
+    }
+
+    btnMobile.addEventListener("click", toggleMenu);
+    btnMobile.addEventListener("toutchstart", toggleMenu);
+  </script>
+</body>
+
+</html>

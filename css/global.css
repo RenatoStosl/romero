@@ -1,0 +1,49 @@
+:root {
+  --fonte-principal: "Poppins", Arial, Helvetica, sans-serif;
+  --fonte-secundaria: "Roboto", Arial, Helvetica, sans-serif;
+
+  --cor-c1: #646464;
+  --cor-c2: #9f9f9f;
+  --cor-c3: #e6e6e6;
+  --cor-c4: #ededed;
+  --cor-c5: #f2f2f2;
+  --cor-c6: #f6f6f6;
+
+  --cor-v1: #9e4444;
+  --cor-v2: #8c2e2e;
+  --cor-v3: #822424;
+  --cor-v4: #741b1b;
+  --cor-v5: #591212;
+  --cor-v6: #4b0d0d;
+
+  --cor-p1: #2f2f2f;
+  --cor-p2: #2b2626;
+  --cor-p3: #252020;
+  --cor-p4: #1f1919;
+  --cor-p5: #1b1414;
+  --cor-p6: #120c0c;
+}
+
+body {
+  margin: 0px;
+  background-color: var(--cor-c6);
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}

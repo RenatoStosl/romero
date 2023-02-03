@@ -1,0 +1,94 @@
+.introducao {
+  background-image: url(../img/Ruído.png);
+}
+
+.introducao__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 0 0 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  align-items: center;
+}
+
+.introducao__conteudo h1 {
+  font-family: var(--fonte-principal);
+  font-size: 60px;
+  color: var(--cor-v5);
+  font-weight: 700;
+  line-height: 60px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.introducao__conteudo p {
+  font-family: var(--fonte-secundaria);
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  margin-bottom: 70px;
+}
+
+.introducao__conteudo-botao {
+  font-family: var(--fonte-secundaria);
+  font-size: 18px;
+  border-radius: 4px;
+  font-weight: 400;
+  text-decoration: none;
+  color: var(--cor-c6);
+  background: var(--cor-v6);
+  padding: 16px 32px;
+  border: none;
+}
+
+.introducao__conteudo h2 {
+  font-family: var(--fonte-secundaria);
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--cor-p2);
+  margin-top: 100px;
+  text-align: right;
+}
+
+@media (max-width: 700px) {
+  .introducao__container {
+    grid-template-columns: 1fr;
+    gap: 5px;
+    padding: 0 0 50px;
+  }
+
+  .introducao__conteudo {
+    grid-row: 2;
+    padding: 30px;
+  }
+
+  .introducao__conteudo {
+    text-align: center;
+  }
+
+  .introducao__conteudo h2 {
+    display: none;
+  }
+
+  .introducao__conteudo h1 {
+    text-align: left;
+    font-size: 30px;
+    line-height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .introducao__conteudo p {
+    font-size: 15px;
+    line-height: 26px;
+    margin-bottom: 50px;
+    text-align: left;
+  }
+
+  .introducao__conteudo-botao {
+    font-size: 16px;
+    width: 50%;
+    padding: 16px 32px;
+  }
+}

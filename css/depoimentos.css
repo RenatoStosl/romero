@@ -55,9 +55,6 @@
     grid-template-columns: 1fr;
     padding: 0 30px 30px;
   }
-  .depoimentos__container::after {
-    display: none;
-  }
 
   .depoimentos__subtitulo {
     font-size: 30px;

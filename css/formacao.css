@@ -79,7 +79,7 @@
   color: var(--cor-c2);
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
   .formacao {
     box-shadow: inset 0 -50px var(--cor-c6);
   }
@@ -107,6 +107,6 @@
   }
 
   .formacao__img img {
-    width: 30%;
+    width: 20%;
   }
 }

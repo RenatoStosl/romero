@@ -52,6 +52,19 @@
   margin: 1em 0;
 }
 
+@media (max-width: 1000px) {
+  .depoimentos__subtitulo {
+    font-size: 30px;
+    text-align: center;
+    line-height: 30px;
+    max-width: none;
+    opacity: 100%;
+    padding: 20px;
+    line-height: 30px;
+    grid-row: 1;
+  }
+}
+
 @media (max-width: 700px) {
   .depoimentos__container {
     display: block;

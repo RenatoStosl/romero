@@ -53,6 +53,9 @@
 }
 
 @media (max-width: 1000px) {
+  .depoimentos__container {
+    display: block;
+  }
   .depoimentos__subtitulo {
     font-size: 30px;
     text-align: center;
